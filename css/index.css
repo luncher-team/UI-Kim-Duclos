@@ -13,14 +13,15 @@ html {
   display: flex;
   flex-direction: column;
 }
-nav {
+.nav {
   width: 25%;
   font-size: 2rem;
   display: flex;
   justify-content: space-around;
   margin: 3% 0 0 70%;
+  font-family: 'Concert One', cursive;
 }
-nav a {
+.nav a {
   color: white;
   text-decoration: none;
 }
@@ -31,17 +32,16 @@ nav a {
   color: white;
   background-color: darkolivegreen;
 }
-.title-block h2 {
-  font-size: 3rem;
-  text-align: center;
-}
 .title-block h1 {
   font-size: 10rem;
   text-align: center;
+  font-family: 'Schoolbell', cursive;
+  line-height: 0.3rem;
 }
 .title-block h2 {
   font-size: 3rem;
   text-align: center;
+  font-family: 'Patua One', cursive;
 }
 .sign-up {
   color: white;
@@ -49,4 +49,15 @@ nav a {
   display: flex;
   justify-content: center;
   margin: 10% 0 0 0;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: white;
+  color: darkolivegreen;
+  display: flex;
+  align-self: center;
+  margin: 3% 0 0 0;
+  padding: 0 0 0 1.3%;
 }
