@@ -36,6 +36,64 @@ html {
 .nav a :visited {
   color: white;
 }
+.edit-school-title {
+  font-family: 'Schoolbell', cursive;
+  color: white;
+  font-size: 4rem;
+  line-height: 1.25rem;
+  padding: 0 0 0 0;
+}
+.edit-form {
+  padding: 5% 0 0 45%;
+  color: white;
+  font-family: 'Patua One', cursive;
+  font-size: 2rem;
+}
+.your-school {
+  width: 300px;
+  height: 300px;
+  background-color: darkolivegreen;
+  font-family: 'Patua One', cursive;
+  color: white;
+}
+html {
+  font-size: 62.5%;
+}
+.container-login {
+  margin: 0 auto;
+  width: 100%;
+  height: 1000px;
+  background-image: url(../images/dinner-dishes.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+}
+.header h2 {
+  color: white;
+  font-family: 'Schoolbell', cursive;
+  font-size: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 2% 0 0;
+}
+.nav {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem;
+  font-family: 'Patua One', cursive;
+}
+.nav a {
+  margin: 0 1% 0 1%;
+  text-decoration: none;
+  color: white;
+}
+.nav a :visited {
+  color: white;
+}
 .school-form-title {
   font-family: 'Schoolbell', cursive;
   color: white;
@@ -378,26 +436,26 @@ html {
   text-align: center;
   font-family: 'Patua One', cursive;
 }
-.learn-content .left-content {
+.learn-content .top-content {
   color: white;
   font-size: 2rem;
   text-align: center;
   line-height: 1.4em;
 }
-.learn-content .right-content {
+.learn-content .middle-content {
   color: white;
   font-size: 2rem;
   text-align: center;
   line-height: 1.4em;
 }
-.learn-content .final-paragraph {
+.learn-content .bottom-paragraph {
   color: white;
   font-size: 2rem;
   text-align: center;
   line-height: 1.4em;
 }
 @media (min-width: 501px) {
-  .learn-content .final-paragraph {
+  .learn-content .bottom-paragraph {
     width: 80%;
     padding: 0 0 0 7%;
   }
