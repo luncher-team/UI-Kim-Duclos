@@ -3,21 +3,15 @@ html {
 }
 .container {
   margin: 0 auto;
-  width: 500px;
-  height: auto;
+  width: 100%;
+  height: 1000px;
   background-image: url(../images/bg-image.jpg);
-  background-size: 100%;
   background-repeat: no-repeat;
   background-color: black;
   background-attachment: fixed;
+  background-size: 100% auto;
   display: flex;
   flex-direction: column;
-}
-@media (min-width: 501px) {
-  .container {
-    width: 800px;
-    min-width: 501px;
-  }
 }
 .header h2 {
   color: white;
@@ -30,91 +24,44 @@ html {
 .nav {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  font-size: 2rem;
-  line-height: 3rem;
-  background-color: black;
-  color: white;
-  font-family: 'Patua One', cursive;
-}
-@media (min-width: 501px) {
-  .nav {
-    background: none;
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-.nav a:link {
-  text-decoration: none;
-  color: gray;
-  border-bottom: 0.25px solid white;
-  padding: 2% 2% 2% 2%;
-}
-@media (min-width: 501px) {
-  .nav a:link {
-    border-bottom: none;
-  }
-}
-.nav a:visited {
-  color: white;
+  font-size: 1rem;
 }
 .title-block {
-  width: 500px;
-  height: auto;
+  width: 100%;
+  height: 325px;
   margin: 15% 0 0 0;
   color: white;
   background-color: darkolivegreen;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-@media (min-width: 501px) {
-  .title-block {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0 0 14% 0;
-  }
 }
 .title-block h1 {
-  font-size: 5rem;
+  font-size: 10rem;
   text-align: center;
   font-family: 'Schoolbell', cursive;
-  line-height: 0.1rem;
+  line-height: 0.3rem;
 }
 .title-block h2 {
-  font-size: 1.5rem;
+  font-size: 3rem;
   text-align: center;
   font-family: 'Patua One', cursive;
-  padding: 0 2.5% 0 0;
-}
-@media (min-width: 501px) {
-  .title-block h2 {
-    padding: 0 20% 0 0;
-  }
 }
 .sign-up {
   color: white;
   font-size: 2rem;
   display: flex;
   justify-content: center;
+  margin: 10% 0 0 0;
 }
 .btn {
-  width: 80px;
-  height: 30px;
+  width: 100px;
+  height: 50px;
   border-radius: 4px;
   background-color: white;
   color: darkolivegreen;
   display: flex;
   align-self: center;
-  margin: 2% 0 2% 0;
-  padding: 0 0 0 2.5%;
+  margin: 1% 0 3% 47%;
+  padding: 0 0 0 1.3%;
   font-family: 'Patua One', cursive;
-}
-@media (min-width: 501px) {
-  .btn {
-    padding: 0 0 0 1.5%;
-  }
 }
 /*bottom content*/
 .arrow {
@@ -124,65 +71,52 @@ html {
 }
 .learn-content {
   background-color: black;
+  padding: 0.05% 0 0 0;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 20% 0 0 0;
   width: 100%;
   height: auto;
-  display: flex;
-  flex-direction: column;
-}
-@media (min-width: 501px) {
-  .learn-content {
-    justify-content: center;
-    padding: 0 0 0 4%;
-  }
+  padding: 0 0 3% 0;
 }
 .learn-content .headline {
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'Patua One', cursive;
 }
-@media (min-width: 501px) {
-  .learn-content .headline {
-    widows: 100%;
-    padding: 0 18% 0 0;
-  }
+.info-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  margin: 5% 0 0 0;
 }
-.learn-content .info-content {
-  flex-direction: column;
-}
-@media (min-width: 501px) {
-  .learn-content .info-content {
-    width: 90%;
-  }
-}
-.learn-content .title-font {
+.title-font {
   font-size: 3rem;
   text-align: center;
   font-family: 'Patua One', cursive;
 }
 .learn-content .left-content {
+  width: 40%;
   color: white;
+  margin: 0% 4% 0% 0%;
   font-size: 2rem;
   text-align: center;
   line-height: 1.4em;
 }
 .learn-content .right-content {
+  width: 40%;
   color: white;
   font-size: 2rem;
   text-align: center;
   line-height: 1.4em;
 }
-.learn-content .final-paragraph {
+.final-paragraph {
   color: white;
   font-size: 2rem;
   text-align: center;
+  margin: 5% 4% 0 2%;
   line-height: 1.4em;
-}
-@media (min-width: 501px) {
-  .learn-content .final-paragraph {
-    width: 90%;
-  }
 }
 .arrow-up {
   text-align: center;
@@ -192,19 +126,24 @@ html {
 .arrow-up :link {
   color: white;
 }
+.card {
+  height: 200px;
+  width: 200px;
+  background-color: gray;
+}
 .contact-content {
   background-color: darkolivegreen;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   text-align: center;
-  padding: 3% 2% 3% 2%;
+  padding: 3% 0 3% 30%;
 }
 .contact-content .email {
-  width: 100%;
+  width: 50%;
 }
 .contact-content .phone {
-  width: 100%;
+  width: 50%;
 }
 .contact-content .address {
-  width: 100%;
+  width: 50%;
 }
