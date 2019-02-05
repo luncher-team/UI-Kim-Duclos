@@ -16,7 +16,11 @@ html {
 @media (min-width: 501px) {
   .container {
     width: 800px;
-    min-width: 501px;
+  }
+}
+@media (min-width: 801px) {
+  .container {
+    width: 1680px;
   }
 }
 .header h2 {
@@ -82,6 +86,16 @@ html {
   font-family: 'Schoolbell', cursive;
   line-height: 0.1rem;
 }
+@media (min-width: 801px) {
+  .title-block h1 {
+    font-size: 10rem;
+  }
+}
+@media (min-width: 801px) {
+  .title-block h1 {
+    padding: 0 0 0 0;
+  }
+}
 .title-block h2 {
   font-size: 1.5rem;
   text-align: center;
@@ -91,6 +105,12 @@ html {
 @media (min-width: 501px) {
   .title-block h2 {
     padding: 0 20% 0 0;
+  }
+}
+@media (min-width: 801px) {
+  .title-block h2 {
+    padding: 0 30% 0 0;
+    font-size: 2rem;
   }
 }
 .sign-up {
@@ -116,12 +136,12 @@ html {
     padding: 0 0 0 1.5%;
   }
 }
-/*bottom content*/
-.arrow {
-  display: flex;
-  justify-content: center;
-  color: white;
+@media (min-width: 801px) {
+  .btn {
+    padding: 0 1% 0 0.85%;
+  }
 }
+/*bottom content*/
 .learn-content {
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -133,7 +153,6 @@ html {
 @media (min-width: 501px) {
   .learn-content {
     justify-content: center;
-    padding: 0 0 0 4%;
   }
 }
 .learn-content .headline {
@@ -148,12 +167,18 @@ html {
     padding: 0 18% 0 0;
   }
 }
+@media (min-width: 801px) {
+  .learn-content .headline {
+    padding: 2% 35% 0 0;
+  }
+}
 .learn-content .info-content {
   flex-direction: column;
 }
 @media (min-width: 501px) {
   .learn-content .info-content {
-    width: 90%;
+    width: 80%;
+    padding: 0 0 0 7%;
   }
 }
 .learn-content .title-font {
@@ -181,30 +206,28 @@ html {
 }
 @media (min-width: 501px) {
   .learn-content .final-paragraph {
-    width: 90%;
+    width: 80%;
+    padding: 0 0 0 7%;
   }
-}
-.arrow-up {
-  text-align: center;
-  margin: 0 0 3% 0;
-  color: white;
-}
-.arrow-up :link {
-  color: white;
 }
 .contact-content {
   background-color: darkolivegreen;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   text-align: center;
-  padding: 3% 2% 3% 2%;
+  padding: 2% 0 2% 5%;
+}
+@media (min-width: 801px) {
+  .contact-content {
+    margin: 10% 0 0 0;
+  }
 }
 .contact-content .email {
-  width: 100%;
+  width: 90%;
 }
 .contact-content .phone {
-  width: 100%;
+  width: 90%;
 }
 .contact-content .address {
-  width: 100%;
+  width: 90%;
 }
