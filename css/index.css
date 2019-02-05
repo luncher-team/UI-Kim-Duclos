@@ -1,114 +1,6 @@
 html {
   font-size: 62.5%;
 }
-.container-donor {
-  margin: 0 auto;
-  width: 100%;
-  height: 1000px;
-  background-image: url(../images/dinner-dishes.jpg);
-  background-repeat: no-repeat;
-  background-color: black;
-  background-attachment: fixed;
-  background-size: 100% auto;
-  display: flex;
-  flex-direction: column;
-}
-.header h2 {
-  color: white;
-  font-family: 'Schoolbell', cursive;
-  font-size: 4rem;
-  display: flex;
-  justify-content: flex-end;
-  margin: 1% 2% 0 0;
-}
-.menu-button {
-  position: absolute;
-  left: 20px;
-  cursor: pointer;
-  margin: 1%  0 0;
-}
-.menu {
-  display: none;
-  position: fixed;
-  top: 75px;
-  left: 0;
-  width: 350px;
-  height: 100vh;
-  /* This give the height 100% of the screen or, '100% of View Height' */
-  background-color: #81C784;
-  border: 1px solid #004D40;
-  border-left: none;
-  border-bottom: none;
-  z-index: 2;
-  /* This set the layer level of the element, it has precendence over initial level of 1*/
-}
-.menu ul li {
-  list-style-type: none;
-  font-size: 32px;
-  padding: 30px 0;
-  text-align: center;
-}
-.menu-open {
-  display: block;
-}
-.nav {
-  color: white;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 3rem;
-  font-family: 'Patua One', cursive;
-}
-.nav a {
-  margin: 1% 1% 1% 1%;
-  text-decoration: none;
-  color: white;
-}
-.nav a :visited {
-  color: white;
-}
-.schools-title {
-  font-family: 'Schoolbell', cursive;
-  color: white;
-  font-size: 4rem;
-  text-align: center;
-  line-height: 1.25rem;
-  margin: 1.25% 0 0 0;
-}
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  overflow-y: scroll;
-  height: 500px;
-}
-.flex-container .school-card {
-  font-family: 'Patua One', cursive;
-  line-height: 2.5rem;
-}
-.flex-container .school-card .school-name {
-  font-size: 3rem;
-}
-.flex-container .school-card .school-address {
-  font-size: 1.5rem;
-}
-.flex-container .school-card .school-fund {
-  font-size: 2rem;
-}
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 250px;
-  height: 200px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  padding: 1% 0 0 0;
-  background-color: darkolivegreen;
-  color: white;
-}
-html {
-  font-size: 62.5%;
-}
 .container {
   margin: 0 auto;
   width: 100%;
@@ -217,15 +109,16 @@ html {
   justify-content: center;
   color: white;
 }
-.bottom-content {
+.learn-content {
   background-color: black;
   padding: 0.05% 0 0 0;
   font-family: Arial, Helvetica, sans-serif;
   margin: 20% 0 0 0;
   width: 100%;
   height: auto;
+  padding: 0 0 3% 0;
 }
-.bottom-content .headline {
+.learn-content .headline {
   color: white;
   text-align: center;
   font-size: 3rem;
@@ -243,7 +136,7 @@ html {
   text-align: center;
   font-family: 'Patua One', cursive;
 }
-.bottom-content .left-content {
+.learn-content .left-content {
   width: 40%;
   color: white;
   margin: 0% 4% 0% 0%;
@@ -251,7 +144,7 @@ html {
   text-align: center;
   line-height: 1.4em;
 }
-.bottom-content .right-content {
+.learn-content .right-content {
   width: 40%;
   color: white;
   font-size: 2rem;
@@ -277,4 +170,20 @@ html {
   height: 200px;
   width: 200px;
   background-color: gray;
+}
+.contact-content {
+  background-color: darkolivegreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 3% 0 3% 30%;
+}
+.contact-content .email {
+  width: 50%;
+}
+.contact-content .phone {
+  width: 50%;
+}
+.contact-content .address {
+  width: 50%;
 }
