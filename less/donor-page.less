@@ -23,40 +23,8 @@ html {
     font-size: 4rem;
     display: flex;
     justify-content: flex-end;
-    margin: 1% 2% 0 0;
+    margin: 0 2% 0 0;
 }
-
-.menu-button {
-    position: absolute;
-    left: 20px;
-    cursor: pointer;
-    margin: 1%  0 0;
-  }
-  
-  .menu {
-    display: none;
-    position: fixed;
-    top: 75px;
-    left: 0;
-    width: 350px;
-    height: 100vh; /* This give the height 100% of the screen or, '100% of View Height' */
-    background-color: #81C784;
-    border: 1px solid #004D40;
-    border-left: none;
-    border-bottom: none;
-    z-index: 2; /* This set the layer level of the element, it has precendence over initial level of 1*/
-  }
-  
-  .menu ul li{
-    list-style-type: none;
-    font-size: 32px;
-    padding: 30px 0;
-    text-align: center;
-  }
-  
-  .menu-open {
-    display: block;
-  }
 
   .nav {
       color: white;
@@ -65,7 +33,7 @@ html {
       font-size: 3rem;
       font-family: 'Patua One', cursive;
       a {
-          margin: 1% 1% 1% 1%;
+          margin: 0 1% 0 1%;
           text-decoration: none;
           color: white;
           :visited {
@@ -98,24 +66,29 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     overflow-y: scroll;
-    height: 500px;
+    height: 495px;
 
 }   
     .school-card {
         font-family: 'Patua One', cursive;
-        line-height: 2.5rem;
+        text-align: center;
         
         .school-name {
             font-size: 3rem;
+            line-height: 1rem;
+            padding: 5% 2% 5% 2%;
+            width: 75%;
         }
         .school-address {
             font-size: 1.5rem;
+            line-height: 1rem;
         }
         .school-fund {
             font-size: 2rem;
+            line-height: 1rem;
         }
     }
-  }
+
   
   .flex-container > div {
     background-color: #f1f1f1;
