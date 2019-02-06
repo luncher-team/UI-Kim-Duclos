@@ -262,6 +262,7 @@ html {
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 @media (min-width: 501px) {
   .container {
@@ -275,59 +276,19 @@ html {
 }
 .login-button {
   background-color: white;
+  padding: 0 20px 0 0;
+  margin: 0 0 0 40%;
   color: darkolivegreen;
   font-size: 2rem;
   font-family: 'Patua One', cursive;
   border-radius: 4px;
   display: flex;
   justify-content: flex-end;
-  margin: 2% 0 0 90%;
-  padding: 0 1.2% 0 0;
   width: 100px;
-}
-.header h2 {
-  color: white;
-  font-family: 'Schoolbell', cursive;
-  font-size: 4rem;
-  display: flex;
-  justify-content: flex-end;
-  margin: 1% 2% 0 0;
-}
-.nav {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: 2rem;
-  line-height: 3rem;
-  background-color: black;
-  color: white;
-  font-family: 'Patua One', cursive;
-}
-@media (min-width: 501px) {
-  .nav {
-    background: none;
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-.nav a:link {
-  text-decoration: none;
-  color: white;
-  border-bottom: 0.25px solid white;
-  padding: 2% 2% 2% 2%;
-}
-@media (min-width: 501px) {
-  .nav a:link {
-    border-bottom: none;
-  }
-}
-.nav a:visited {
-  color: white;
 }
 .title-block {
   width: 500px;
   height: auto;
-  margin: 15% 0 0 0;
   color: white;
   background-color: darkolivegreen;
   display: flex;
@@ -339,63 +300,53 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 0 0 14% 0;
   }
 }
-.title-block h1 {
+.title-block .main-title {
   font-size: 5rem;
-  text-align: center;
   font-family: 'Schoolbell', cursive;
   line-height: 0.1rem;
+  display: flex;
+  justify-content: center;
 }
 @media (min-width: 801px) {
-  .title-block h1 {
+  .title-block .main-title {
     font-size: 10rem;
+    display: flex;
+    justify-content: center;
   }
 }
-@media (min-width: 801px) {
-  .title-block h1 {
-    padding: 0 0 0 5%;
-  }
-}
-.title-block h2 {
+.title-block .tagline {
   font-size: 1.5rem;
-  text-align: center;
   font-family: 'Patua One', cursive;
-  padding: 0 2.5% 0 0;
-}
-@media (min-width: 501px) {
-  .title-block h2 {
-    padding: 0 20% 0 0;
-  }
+  display: flex;
+  justify-content: center;
 }
 @media (min-width: 801px) {
-  .title-block h2 {
-    padding: 0 30% 0 0;
+  .title-block .tagline {
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
   }
 }
 .sign-up-btn {
   background-color: white;
+  margin: 4% 0 4% 34%;
   color: darkolivegreen;
   font-size: 2rem;
   font-family: 'Patua One', cursive;
   border-radius: 4px;
-  margin: 2% 0 0 0;
   width: 150px;
-  margin: 1% 0 1% 48%;
-}
-@media (min-width: 501px) {
-  .sign-up-btn {
-    padding: 0 0 0 1.5%;
-  }
+  display: flex;
+  justify-content: center;
 }
 @media (min-width: 801px) {
   .sign-up-btn {
-    padding: 0 1% 0 0.85%;
+    display: flex;
+    align-self: center;
+    margin: 2% 0 2% 0;
   }
 }
-/*bottom content*/
 .learn-content {
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -403,34 +354,24 @@ html {
   height: auto;
   display: flex;
   flex-direction: column;
-}
-@media (min-width: 501px) {
-  .learn-content {
-    justify-content: center;
-  }
+  justify-content: center;
 }
 .learn-content .headline {
   color: white;
   text-align: center;
-  font-size: 2rem;
   font-family: 'Patua One', cursive;
+  display: flex;
+  justify-content: center;
+  margin: 2% 0 0 0;
 }
-@media (min-width: 501px) {
-  .learn-content .headline {
-    widows: 100%;
-    padding: 0 18% 0 0;
-  }
+.learn-content .headline h2 {
+  font-size: 3rem;
 }
-@media (min-width: 801px) {
-  .learn-content .headline {
-    padding: 2% 35% 0 0;
-  }
-}
-.learn-content .info-content {
+.learn-content .headline .info-content {
   flex-direction: column;
 }
 @media (min-width: 501px) {
-  .learn-content .info-content {
+  .learn-content .headline .info-content {
     width: 80%;
     padding: 0 0 0 7%;
   }
