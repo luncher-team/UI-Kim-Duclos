@@ -36,6 +36,10 @@ html {
     display: flex;
     justify-content: flex-end;
     width: 100px;
+    
+    @media @tablet {
+        margin: 0 0 0 42%;
+    }
 }
 
 
@@ -60,6 +64,9 @@ html {
         line-height: .1rem;
         display: flex;
         justify-content: center;
+
+        @media @tablet {
+        }
 
         @media @desktop {
             font-size: 10rem;
@@ -97,6 +104,7 @@ html {
     justify-content: center;
 
         @media @tablet {
+            margin: 4% 0 4% 39%;
         }
         @media @desktop {
             display: flex;
@@ -130,11 +138,6 @@ html {
 
     .info-content {
         flex-direction: column;
-
-        @media @tablet {
-            width: 80%;
-            padding: 0 0 0 7%;
-        }
     }
 }
 
@@ -149,6 +152,11 @@ html {
         font-size: 2rem;
         text-align: center;
         line-height: 1.4em;
+        
+        @media @tablet {
+            width: 80%;
+            padding: 0 0 0 9%;
+        }
     }
 
     .middle-content {
@@ -156,6 +164,11 @@ html {
         font-size: 2rem;
         text-align: center;
         line-height: 1.4em;
+
+        @media @tablet {
+            width: 80%;
+            padding: 0 0 0 9%;
+        }
     }
 
     .bottom-paragraph {
@@ -166,7 +179,7 @@ html {
 
         @media @tablet {
             width: 80%;
-            padding: 0 0 0 7%;
+            padding: 0 0 0 9%;
         }
     }
 }

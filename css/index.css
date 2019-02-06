@@ -286,6 +286,11 @@ html {
   justify-content: flex-end;
   width: 100px;
 }
+@media (min-width: 501px) {
+  .login-button {
+    margin: 0 0 0 42%;
+  }
+}
 .title-block {
   width: 500px;
   height: auto;
@@ -340,6 +345,11 @@ html {
   display: flex;
   justify-content: center;
 }
+@media (min-width: 501px) {
+  .sign-up-btn {
+    margin: 4% 0 4% 39%;
+  }
+}
 @media (min-width: 801px) {
   .sign-up-btn {
     display: flex;
@@ -370,12 +380,6 @@ html {
 .learn-content .headline .info-content {
   flex-direction: column;
 }
-@media (min-width: 501px) {
-  .learn-content .headline .info-content {
-    width: 80%;
-    padding: 0 0 0 7%;
-  }
-}
 .learn-content .title-font {
   font-size: 3rem;
   text-align: center;
@@ -387,11 +391,23 @@ html {
   text-align: center;
   line-height: 1.4em;
 }
+@media (min-width: 501px) {
+  .learn-content .top-content {
+    width: 80%;
+    padding: 0 0 0 9%;
+  }
+}
 .learn-content .middle-content {
   color: white;
   font-size: 2rem;
   text-align: center;
   line-height: 1.4em;
+}
+@media (min-width: 501px) {
+  .learn-content .middle-content {
+    width: 80%;
+    padding: 0 0 0 9%;
+  }
 }
 .learn-content .bottom-paragraph {
   color: white;
@@ -402,7 +418,7 @@ html {
 @media (min-width: 501px) {
   .learn-content .bottom-paragraph {
     width: 80%;
-    padding: 0 0 0 7%;
+    padding: 0 0 0 9%;
   }
 }
 .contact-content {
