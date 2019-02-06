@@ -291,6 +291,11 @@ html {
     margin: 0 0 0 42%;
   }
 }
+@media (min-width: 801px) {
+  .login-button {
+    margin: 0 0 0 42%;
+  }
+}
 .title-block {
   width: 500px;
   height: auto;
@@ -305,6 +310,11 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+}
+@media (min-width: 801px) {
+  .title-block {
+    margin: 0 0 15% 0;
   }
 }
 .title-block .main-title {
@@ -354,7 +364,7 @@ html {
   .sign-up-btn {
     display: flex;
     align-self: center;
-    margin: 2% 0 2% 0;
+    margin: 2% 4% 2% 0;
   }
 }
 .learn-content {
