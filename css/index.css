@@ -293,7 +293,7 @@ html {
 }
 @media (min-width: 801px) {
   .login-button {
-    margin: 0 0 0 42%;
+    margin: 2% 0 0 90%;
   }
 }
 .title-block {
@@ -314,7 +314,7 @@ html {
 }
 @media (min-width: 801px) {
   .title-block {
-    margin: 0 0 15% 0;
+    margin: 2% 0 15% 0;
   }
 }
 .title-block .main-title {
@@ -329,6 +329,7 @@ html {
     font-size: 10rem;
     display: flex;
     justify-content: center;
+    padding: 0 2% 0 0;
   }
 }
 .title-block .tagline {
