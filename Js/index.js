@@ -79,7 +79,7 @@ const slideshow = [
         img: 'images/img1.jpg',
         caption: 'Starving kids is bad',
     },
-    slide43 = {
+    slide4 = {
         id: 1, 
         img: 'images/img1.jpg',
         caption: 'Do the teachers a favor here',

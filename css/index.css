@@ -289,12 +289,12 @@ html {
 }
 @media (min-width: 501px) {
   .login-button {
-    margin: 0 0 0 42%;
+    margin: 2% 0 0 43%;
   }
 }
 @media (min-width: 801px) {
   .login-button {
-    margin: 2% 0 0 90%;
+    margin: 2% 0 0 85%;
   }
 }
 .title-block {
@@ -363,7 +363,7 @@ html {
 }
 @media (min-width: 501px) {
   .sign-up-btn {
-    margin: 4% 0 4% 39%;
+    margin: 4% 0 4% 40%;
   }
 }
 @media (min-width: 801px) {
@@ -440,6 +440,48 @@ html {
     padding: 0 0 0 9%;
   }
 }
+.slideshow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2% 0 2% 15%;
+}
+.slideshow .slideshowImg {
+  width: 333px;
+  height: 300px;
+  background-color: white;
+}
+@media (min-width: 501px) {
+  .slideshow .slideshowImg {
+    margin: 0 0 0 15%;
+  }
+}
+@media (min-width: 801px) {
+  .slideshow .slideshowImg {
+    margin: 0 0 0 20%;
+  }
+}
+.slideshow .slideshowCaption {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  margin: 1% 10% 2% 0;
+  color: red;
+  font-size: 2rem;
+  font-family: 'Patua One', cursive;
+}
+.arrows {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 2% 22% 0 0;
+}
+.arrows .fa-chevron-circle-left {
+  color: white;
+}
+.arrows .fa-chevron-circle-right {
+  color: white;
+}
 .contact-content {
   background-color: darkolivegreen;
   font-family: Arial, Helvetica, sans-serif;
@@ -449,11 +491,6 @@ html {
   border-top: 1px dashed white;
   border-bottom: 1px dashed white;
   box-shadow: 5px 5px 10px #000000;
-}
-@media (min-width: 801px) {
-  .contact-content {
-    margin: 10% 0 0 0;
-  }
 }
 .contact-content .email {
   width: 90%;
