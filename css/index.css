@@ -255,7 +255,7 @@ html {
   margin: 0 auto;
   width: 500px;
   height: auto;
-  background-image: url(../images/bg-image.jpg);
+  background-image: url(../images/dinner-dishes.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: black;
@@ -274,46 +274,9 @@ html {
     width: 1000px;
   }
 }
-.navButtons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-between;
-}
-.navButtons button {
-  background-color: none;
-  margin: 2% 0 0 2%;
-}
-.navButtons button .hamburger {
-  color: white;
-  background-color: none;
-}
-.navButtons .login-button {
-  background-color: white;
-  padding: 0 20px 0 0;
-  margin: 0 0 0 40%;
-  color: darkolivegreen;
-  font-size: 2rem;
-  font-family: 'Patua One', cursive;
-  border-radius: 4px;
-  display: flex;
-  justify-content: flex-end;
-  width: 100px;
-  box-shadow: 5px 5px 10px #000000;
-}
-@media (min-width: 501px) {
-  .navButtons .login-button {
-    margin: 2% 0 0 43%;
-  }
-}
-@media (min-width: 801px) {
-  .navButtons .login-button {
-    margin: 2% 0 0 85%;
-  }
-}
 .title-block {
   width: 500px;
-  height: auto;
+  height: 200px;
   color: white;
   background-color: darkolivegreen;
   display: flex;
@@ -322,17 +285,62 @@ html {
   border-top: 1px dashed white;
   border-bottom: 1px dashed white;
   box-shadow: 5px 5px 10px #000000;
+  margin: 0 0 20% 0;
 }
 @media (min-width: 501px) {
   .title-block {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 5% 0 30% 0;
   }
 }
 @media (min-width: 801px) {
   .title-block {
-    margin: 2% 0 15% 0;
+    margin: 2% 0 25% 0;
+    height: auto;
+  }
+}
+.title-block .navButtons {
+  display: flex;
+  justify-content: center;
+}
+.title-block .navButtons button {
+  background-color: darkolivegreen;
+  border: none;
+  margin: 2% 30% 0 2%;
+  color: white;
+}
+@media (min-width: 801px) {
+  .title-block .navButtons button {
+    margin: 2% 5% 0 2%;
+  }
+}
+.title-block .navButtons button .hamburger {
+  color: white;
+  background-color: none;
+}
+.title-block .navButtons .login-button {
+  background-color: white;
+  padding: 0.5% 2% 4% 0;
+  margin: 2% 2% 0 40%;
+  color: darkolivegreen;
+  font-size: 2rem;
+  font-family: 'Patua One', cursive;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100px;
+}
+@media (min-width: 501px) {
+  .title-block .navButtons .login-button {
+    margin: 2% 0 0 43%;
+  }
+}
+@media (min-width: 801px) {
+  .title-block .navButtons .login-button {
+    margin: 2% 0 0 70%;
+    padding: 0 2% 0 0;
   }
 }
 .title-block .main-title {
@@ -342,9 +350,11 @@ html {
   display: flex;
   justify-content: center;
 }
+@media (min-width: 501px) {
+}
 @media (min-width: 801px) {
   .title-block .main-title {
-    font-size: 15rem;
+    font-size: 11rem;
     display: flex;
     justify-content: center;
     padding: 0 2% 0 0;
@@ -363,9 +373,11 @@ html {
     justify-content: center;
   }
 }
-.sign-up-btn {
+.title-block .sign-up-btn {
   background-color: white;
+  border: none;
   margin: 4% 0 4% 34%;
+  padding: 0 0 2% 0;
   color: darkolivegreen;
   font-size: 2rem;
   font-family: 'Patua One', cursive;
@@ -373,18 +385,18 @@ html {
   width: 150px;
   display: flex;
   justify-content: center;
-  box-shadow: 5px 5px 10px #000000;
 }
 @media (min-width: 501px) {
-  .sign-up-btn {
+  .title-block .sign-up-btn {
     margin: 4% 0 4% 40%;
   }
 }
 @media (min-width: 801px) {
-  .sign-up-btn {
+  .title-block .sign-up-btn {
     display: flex;
     align-self: center;
     margin: 2% 4% 2% 0;
+    padding: 0 0 0.5% 0;
   }
 }
 .learn-content {
@@ -395,9 +407,9 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-top: 1px dashed white;
   border-bottom: 1px dashed white;
   box-shadow: 5px 5px 10px #000000;
+  margin: 5% 0 0 0;
 }
 .learn-content .headline {
   color: white;
@@ -408,21 +420,24 @@ html {
   margin: 2% 0 0 0;
 }
 .learn-content .headline h2 {
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 0.2rem;
 }
 .learn-content .headline .info-content {
   flex-direction: column;
 }
 .learn-content .title-font {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   font-family: 'Patua One', cursive;
 }
+.learn-content .paragraph-font {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 .learn-content .top-content {
   color: white;
-  font-size: 2rem;
   text-align: center;
-  line-height: 1.4em;
 }
 @media (min-width: 501px) {
   .learn-content .top-content {
@@ -430,26 +445,12 @@ html {
     padding: 0 0 0 9%;
   }
 }
-.learn-content .middle-content {
+.learn-content .bottom-content {
   color: white;
-  font-size: 2rem;
   text-align: center;
-  line-height: 1.4em;
 }
 @media (min-width: 501px) {
-  .learn-content .middle-content {
-    width: 80%;
-    padding: 0 0 0 9%;
-  }
-}
-.learn-content .bottom-paragraph {
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-  line-height: 1.4em;
-}
-@media (min-width: 501px) {
-  .learn-content .bottom-paragraph {
+  .learn-content .bottom-content {
     width: 80%;
     padding: 0 0 0 9%;
   }
@@ -497,9 +498,11 @@ html {
 }
 .arrows #left {
   background-color: #000000;
+  border: none;
 }
 .arrows #right {
   background-color: #000000;
+  border: none;
 }
 #control {
   background-color: black;
@@ -522,9 +525,27 @@ html {
 .contact-content .email {
   width: 90%;
 }
+.contact-content .email :link {
+  color: black;
+}
+.contact-content .email :visited {
+  color: black;
+}
 .contact-content .phone {
   width: 90%;
 }
+.contact-content .phone :link {
+  color: black;
+}
+.contact-content .phone :visited {
+  color: black;
+}
 .contact-content .address {
   width: 90%;
+}
+.contact-content .address :link {
+  color: black;
+}
+.contact-content .address :visited {
+  color: black;
 }

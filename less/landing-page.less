@@ -7,7 +7,7 @@ html {
     margin: 0 auto;
     width: 500px;
     height: auto;
-    background-image: url(../images/bg-image.jpg);
+    background-image: url(../images/dinner-dishes.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
@@ -25,53 +25,9 @@ html {
 }
 
 
-.navButtons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
-
-    button {
-        background-color: none;
-        margin: 2% 0 0 2%;
-    
-        .hamburger {
-            color: white;
-            background-color: none;
-        }
-        
-    }
-
-// Login button
-.login-button {
-    background-color: white;
-    padding: 0 20px 0 0;
-    margin: 0 0 0 40%;
-    color: darkolivegreen;
-    font-size: 2rem;
-    font-family: 'Patua One', cursive;
-    border-radius: 4px;
-    display: flex;
-    justify-content: flex-end;
-    width: 100px;
-    box-shadow: 5px 5px 10px #000000;
-
-
-    
-    @media @tablet {
-        margin: 2% 0 0 43%;
-    }
-
-    @media @desktop {
-        margin: 2% 0 0 85%;
-    }
-}
-}
-
-
 .title-block {
     width: 500px;
-    height: auto;
+    height: 200px;
     color: white;
     background-color: darkolivegreen;
     display: flex;
@@ -79,64 +35,95 @@ html {
     flex-direction: column;
     border-top: 1px dashed white;
     border-bottom: 1px dashed white;
-    box-shadow: 5px 5px 10px #000000;   
-
-    
+    box-shadow: 5px 5px 10px #000000;  
+    margin: 0 0 20% 0;
     @media @tablet {
         width: 100%;
         display: flex;
         justify-content: center;
+        margin: 5% 0 30% 0;
     }
-
     @media @desktop {
-        margin: 2% 0 15% 0;
+        margin: 2% 0 25% 0;
+        height: auto;
     }
     
+    .navButtons {
+        display: flex;
+        justify-content: center;
+        button {
+            background-color: darkolivegreen;
+            border: none;
+            margin: 2% 30% 0 2%;
+            color: white;
+            @media @desktop {
+                margin: 2% 5% 0 2%;
+            }
+            .hamburger {
+                color: white;
+                background-color: none;
+            }
+        }
+        .login-button {
+            background-color: white;
+            padding: .5% 2% 4% 0;
+            margin: 2% 2% 0 40%;
+            color: darkolivegreen;
+            font-size: 2rem;
+            font-family: 'Patua One', cursive;
+            border-radius: 4px;
+            display: flex;
+            justify-content: flex-end;
+            width: 100px;
+            @media @tablet {
+                margin: 2% 0 0 43%;
+            }
+            @media @desktop {
+                margin: 2% 0 0 70%;
+                padding: 0 2% 0 0;
+                
+            }
+        }
+    }
     .main-title {
         font-size: 5rem;
         font-family: 'Schoolbell', cursive;
         line-height: .1rem;
         display: flex;
         justify-content: center;
-
+        @media @tablet{
+            // font-size: 10rem;
+        }
         @media @desktop {
-            font-size: 15rem;
+            font-size: 11rem;
             display: flex;
             justify-content: center;
             padding: 0 2% 0 0;
         }
     }
-
     .tagline {
-    font-size: 1.5rem;
-    font-family: 'Patua One', cursive;
-    display: flex;
-    justify-content: center;
-
-        @media @tablet {
-        }
+        font-size: 1.5rem;
+        font-family: 'Patua One', cursive;
+        display: flex;
+        justify-content: center;
         @media @desktop {
             font-size: 2rem;
             display: flex;
             justify-content: center;
         }
     }
-}
-
-
-.sign-up-btn {
-    background-color: white;
-    margin: 4% 0 4% 34%;
-    color: darkolivegreen;
-    font-size: 2rem;
-    font-family: 'Patua One', cursive;
-    border-radius: 4px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    box-shadow: 5px 5px 10px #000000;
-
-
+    .sign-up-btn {
+        background-color: white;
+        border: none;
+        margin: 4% 0 4% 34%;
+        padding: 0 0 2% 0;
+        color: darkolivegreen;
+        font-size: 2rem;
+        font-family: 'Patua One', cursive;
+        border-radius: 4px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
         @media @tablet {
             margin: 4% 0 4% 40%;
         }
@@ -144,7 +131,9 @@ html {
             display: flex;
             align-self: center;
             margin: 2% 4% 2% 0;
+            padding: 0 0 .5% 0;
         }
+    }
 }
 
 
@@ -156,12 +145,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-top: 1px dashed white;
     border-bottom: 1px dashed white;
     box-shadow: 5px 5px 10px #000000;
-
-
-
+    margin: 5% 0 0 0;
 
     .headline{
         color: white;
@@ -171,50 +157,36 @@ html {
         justify-content: center;
         margin: 2% 0 0 0;
         h2 {
-            font-size: 3rem;
+            font-size: 2rem;
+            line-height: .2rem;
         }
 
 
-    .info-content {
-        flex-direction: column;
+        .info-content {
+            flex-direction: column;
+        }
     }
-}
-
     .title-font {
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: center;
         font-family: 'Patua One', cursive;
     }
-
+    .paragraph-font {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
     .top-content {
         color: white;
-        font-size: 2rem;
         text-align: center;
-        line-height: 1.4em;
-        
         @media @tablet {
             width: 80%;
             padding: 0 0 0 9%;
         }
     }
 
-    .middle-content {
+    .bottom-content {
         color: white;
-        font-size: 2rem;
         text-align: center;
-        line-height: 1.4em;
-
-        @media @tablet {
-            width: 80%;
-            padding: 0 0 0 9%;
-        }
-    }
-
-    .bottom-paragraph {
-        color: white;
-        font-size: 2rem;
-        text-align: center;
-        line-height: 1.4em;
 
         @media @tablet {
             width: 80%;
@@ -268,10 +240,12 @@ html {
 
     #left {
         background-color: #000000;
+        border: none;
     }
 
     #right {
         background-color: #000000;
+        border: none;
     }
 }
 
@@ -296,11 +270,29 @@ html {
 
     .email{
         width: 90%;
+        :link {
+            color: black;
+        }
+        :visited {
+            color: black;
+        }
     }
     .phone {
         width: 90%;
+        :link {
+            color: black;
+        }
+        :visited {
+            color: black;
+        }
     }
     .address {
         width: 90%;
+        :link {
+            color: black;
+        }
+        :visited {
+            color: black;
+        }
     }
 }
