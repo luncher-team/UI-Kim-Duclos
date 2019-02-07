@@ -64,25 +64,29 @@ regColor3.style.color = "black";
 // slideshow of objects in array
 
 const slideshow = [
-    slide0 = {
-        id: 1, 
-        img: 'images/img1.jpg',
-        caption: 'Feed Kids',
+    { 
+        slide: 1,
+        img: 'images/slideshow-images/img0.jpg',
+        caption: 'Feed Kids'
     },
-    slide1 = {
-        id: 1, 
-        img: 'images/img1.jpg',
-        caption: 'Nobody wants hangry kids',
+    {
+        slide: 2,
+        img: 'images/slideshow-images/img1.jpg',
+        caption: 'Nobody wants hangry kids'
     },
-    slide2 = {
-        id: 1, 
-        img: 'images/img1.jpg',
-        caption: 'Starving kids is bad',
+    {
+        slide: 3,
+        img: 'images/slideshow-images/img2.jpg',
+        caption: 'Starving kids is bad'
     },
-    slide4 = {
-        id: 1, 
-        img: 'images/img1.jpg',
+    {
+        slide: 3,
+        img: 'images/slideshow-images/img3.jpg',
         caption: 'Do the teachers a favor here',
     }
 ];
 
+
+let imageInput = document.querySelector('.slideshowImg');
+//imageInput.style.backgroundImage = "url('images/slideshow-images/img0.jpg')";
+imageInput.style.backgroundImage = "url(" +slideshow[0].img+ ")";

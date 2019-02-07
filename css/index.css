@@ -271,7 +271,7 @@ html {
 }
 @media (min-width: 801px) {
   .container {
-    width: auto;
+    width: 1000px;
   }
 }
 .login-button {
@@ -465,8 +465,7 @@ html {
   width: 50%;
   height: 100px;
   text-align: center;
-  margin: 1% 10% 2% 0;
-  color: red;
+  color: white;
   font-size: 2rem;
   font-family: 'Patua One', cursive;
 }
@@ -481,6 +480,14 @@ html {
 }
 .arrows .fa-chevron-circle-right {
   color: white;
+}
+#left {
+  background-color: black;
+  border: none;
+}
+#right {
+  background-color: black;
+  border: none;
 }
 .contact-content {
   background-color: darkolivegreen;
