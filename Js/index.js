@@ -7,6 +7,9 @@ loginColor.style.backgroundColor = "black";
 loginColor.style.color = white;
 });
 
+//hamburer
+
+
 let LoginFontColor = document.querySelector('.login-button');
 LoginFontColor.addEventListener('click', e => {
 LoginFontColor.style.color = "white";
@@ -114,6 +117,9 @@ const setSlide = (currentSlide) => {
 
     let imageInput = document.querySelector('.slideshowImg');
     imageInput.style.backgroundImage = "url(" + slideshow[currentSlide].img + ")";
+
+    let slideCap = document.querySelector('slideCaption');
+    slideCap.innerHTML = slidehow[currentSlide].caption;
 
 }
 
