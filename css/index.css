@@ -310,6 +310,9 @@ html {
   margin: 2% 30% 0 2%;
   color: white;
 }
+.title-block .navButtons button a:link {
+  color: darkolivegreen;
+}
 @media (min-width: 801px) {
   .title-block .navButtons button {
     margin: 2% 5% 0 2%;

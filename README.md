@@ -9,3 +9,5 @@ Login button will lead admistrative user to a sign in page. User will then be ab
 Informational section provides facts on diet and learning with supplemental slideshow.
 
 Bottom of page provided contact information for Luncher.
+
+Site Deployment on Netify
