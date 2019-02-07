@@ -88,5 +88,28 @@ const slideshow = [
 
 
 let imageInput = document.querySelector('.slideshowImg');
-//imageInput.style.backgroundImage = "url('images/slideshow-images/img0.jpg')";
 imageInput.style.backgroundImage = "url(" +slideshow[0].img+ ")";
+
+
+let i = 0;
+
+showSlides = () => {
+    document.getElementById('left').i = ++1;
+    document.getAnimations('right').i = --1;
+    let imageInput = document.querySelector('.slideshowImg');
+    imageInput.style.backgroundImage = "url(" +slideshow[i].img+ ")";
+}
+
+showSlides();
+
+
+
+{/* <script>
+    var i = 0;
+    function buttonClick() {
+        document.getElementById('inc').value = ++i;
+    }
+</script> */}
+
+{/* <button onclick="buttonClick()">Click Me</button>
+<input type="text" id="inc" value="0"></input> */}
