@@ -65,17 +65,17 @@ regColor3.style.color = "black";
 
 const slideshow = [
     { 
-        slide: 1,
+        slide: 0,
         img: 'images/slideshow-images/img0.jpg',
         caption: 'Feed Kids'
     },
     {
-        slide: 2,
+        slide: 1,
         img: 'images/slideshow-images/img1.jpg',
         caption: 'Nobody wants hangry kids'
     },
     {
-        slide: 3,
+        slide: 2,
         img: 'images/slideshow-images/img2.jpg',
         caption: 'Starving kids is bad'
     },
@@ -86,7 +86,36 @@ const slideshow = [
     }
 ];
 
+let i = 0;
 
-let imageInput = document.querySelector('.slideshowImg');
-//imageInput.style.backgroundImage = "url('images/slideshow-images/img0.jpg')";
-imageInput.style.backgroundImage = "url(" +slideshow[0].img+ ")";
+const moveSlide = (clicked_id) => {
+    if (clicked_id.currentTarget.id === 'left') {
+        i--;
+        if (i < 0) {
+            i = slideshow.length - 1;
+        }
+    }
+    else {
+        i++;
+        if (i > slideshow.length) {
+            i = 0;
+        }
+    }
+    setSlide(i);
+}
+
+
+
+
+document.getElementById('left').onclick = moveSlide;
+document.getElementById('right').onclick = moveSlide;
+
+const setSlide = (currentSlide) => {
+
+    let imageInput = document.querySelector('.slideshowImg');
+    imageInput.style.backgroundImage = "url(" + slideshow[currentSlide].img + ")";
+
+}
+
+setSlide(i);
+
