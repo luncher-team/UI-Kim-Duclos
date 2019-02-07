@@ -118,8 +118,8 @@ const setSlide = (currentSlide) => {
     let imageInput = document.querySelector('.slideshowImg');
     imageInput.style.backgroundImage = "url(" + slideshow[currentSlide].img + ")";
 
-    let slideCap = document.querySelector('slideCaption');
-    slideCap.innerHTML = slidehow[currentSlide].caption;
+    document.querySelector('slideCaption').innerHTML = slideshow[currentSlide].caption;
+    // slideCap.innerHTML = slidehow[currentSlide].caption;
 
 }
 

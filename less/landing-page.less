@@ -27,7 +27,7 @@ html {
 
 .title-block {
     width: 500px;
-    height: 200px;
+    height: 175px;
     color: white;
     background-color: darkolivegreen;
     display: flex;
@@ -35,7 +35,6 @@ html {
     flex-direction: column;
     border-top: 1px dashed white;
     border-bottom: 1px dashed white;
-    box-shadow: 5px 5px 10px #000000;  
     margin: 0 0 20% 0;
     @media @tablet {
         width: 100%;
@@ -66,7 +65,7 @@ html {
         }
         .login-button {
             background-color: white;
-            padding: .5% 2% 4% 0;
+            padding: .5% 4% 5% 0;
             margin: 2% 2% 0 40%;
             color: darkolivegreen;
             font-size: 2rem;
@@ -75,6 +74,9 @@ html {
             display: flex;
             justify-content: flex-end;
             width: 100px;
+            a:link{
+                text-decoration: none;
+            }
             @media @tablet {
                 margin: 2% 0 0 43%;
             }
@@ -116,7 +118,7 @@ html {
         background-color: white;
         border: none;
         margin: 4% 0 4% 34%;
-        padding: 0 0 2% 0;
+        padding: 0 0 4% 0;
         color: darkolivegreen;
         font-size: 2rem;
         font-family: 'Patua One', cursive;
@@ -162,9 +164,9 @@ html {
         }
 
 
-        .info-content {
-            flex-direction: column;
-        }
+.info-content {
+    flex-direction: column;
+}
     }
     .title-font {
         font-size: 2rem;
@@ -183,11 +185,9 @@ html {
             padding: 0 0 0 9%;
         }
     }
-
     .bottom-content {
         color: white;
         text-align: center;
-
         @media @tablet {
             width: 80%;
             padding: 0 0 0 9%;
