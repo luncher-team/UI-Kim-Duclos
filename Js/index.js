@@ -15,16 +15,16 @@ LoginFontColor.addEventListener('click', e => {
 LoginFontColor.style.color = "white";
 });
 
-// signUp button
-let signUpColor = document.querySelector('.sign-up-btn');
-signUpColor.addEventListener('click', e => {
-signUpColor.style.backgroundColor = "black";
-signUpColor.style.color = white;
+// donate button
+let donateColor = document.querySelector('.donate-btn');
+donateColor.addEventListener('click', e => {
+donateColor.style.backgroundColor = "black";
+donateColor.style.color = white;
 });
 
-let signUpFontColor = document.querySelector('.sign-up-btn');
-signUpFontColor.addEventListener('click', e => {
-signUpFontColor.style.color = "white";
+let donateFontColor = document.querySelector('.donate-btn');
+donateFontColor.addEventListener('click', e => {
+donateFontColor.style.color = "white";
 });
 
 
@@ -117,6 +117,8 @@ const setSlide = (currentSlide) => {
 
     let imageInput = document.querySelector('.slideshowImg');
     imageInput.style.backgroundImage = "url(" + slideshow[currentSlide].img + ")";
+
+    document.querySelector('.slideCaption').innerHTML = slideshow[currentSlide].caption;
 }
 
 setSlide(i);
