@@ -255,7 +255,7 @@ html {
   margin: 0 auto;
   width: 500px;
   height: auto;
-  background-image: url(../images/dinner-dishes.jpg);
+  background-image: url(../images/dinner-dishes-phone.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: black;
@@ -267,16 +267,28 @@ html {
 @media (min-width: 501px) {
   .container {
     width: 800px;
+    background: url('../images/dinner-dishes-tablet.jpg');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
   }
 }
 @media (min-width: 801px) {
   .container {
     width: 1000px;
+    background: url('../images/dinner-dishes-desktop.jpg');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: top;
   }
 }
 .title-block {
   width: 500px;
-  height: 200px;
+  height: 175px;
   color: white;
   background-color: darkolivegreen;
   display: flex;
@@ -308,8 +320,8 @@ html {
 .title-block .navButtons button {
   background-color: darkolivegreen;
   border: none;
-  margin: 2% 30% 0 0;
-  padding: 0 0 2% 0;
+  margin: 0 30% 0 0;
+  padding: 2% 0 2% 0;
   color: white;
 }
 .title-block .navButtons button a:link {
@@ -357,6 +369,7 @@ html {
   line-height: 0.1rem;
   display: flex;
   justify-content: center;
+  margin: 0 0 6% 0;
 }
 @media (min-width: 801px) {
   .title-block .main-title {
@@ -391,6 +404,7 @@ html {
   height: 15%;
   display: flex;
   justify-content: center;
+  margin-top: 2%;
 }
 .title-block .donate-btn a:link {
   text-decoration: none;
@@ -492,7 +506,7 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 2% 0 2% 17%;
+  margin: 2% 0 2% 16%;
 }
 .slideshow .slideshowImg {
   width: 333px;
@@ -501,7 +515,7 @@ html {
 }
 @media (min-width: 501px) {
   .slideshow .slideshowImg {
-    margin: 0 0 0 14%;
+    margin: 0 0 0 16%;
   }
 }
 @media (min-width: 801px) {
@@ -559,7 +573,7 @@ html {
   padding: 2% 0 2% 5%;
   border-top: 1px dashed white;
   border-bottom: 1px dashed white;
-  padding: 2% 0 0 8%;
+  padding: 2% 0 0 6%;
 }
 @media (min-width: 801px) {
   .contact-content {

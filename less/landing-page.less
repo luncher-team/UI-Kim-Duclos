@@ -6,7 +6,7 @@ html {
     margin: 0 auto;
     width: 500px;
     height: auto;
-    background-image: url(../images/dinner-dishes.jpg);
+    background-image: url(../images/dinner-dishes-phone.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
@@ -17,16 +17,28 @@ html {
 
     @media @tablet {
         width: 800px;
+        background: url('../images/dinner-dishes-tablet.jpg');
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-attachment: fixed;
     }
     @media @desktop {
-        width: 1000px
+        width: 1000px;
+        background: url('../images/dinner-dishes-desktop.jpg');
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-attachment: fixed;
+        background-position: center;
+        background-position: top;
     }
-    }
+}
 
 
 .title-block {
     width: 500px;
-    height: 200px;
+    height: 175px;
     color: white;
     background-color: darkolivegreen;
     display: flex;
@@ -53,8 +65,8 @@ html {
         button {
             background-color: darkolivegreen;
             border: none;
-            margin: 2% 30% 0 0;
-            padding: 0 0 2% 0;
+            margin: 0 30% 0 0;
+            padding: 2% 0 2% 0;
             color: white;
             a:link {
                 color: darkolivegreen;
@@ -98,6 +110,7 @@ html {
         line-height: .1rem;
         display: flex;
         justify-content: center;
+        margin: 0 0 6% 0;
         @media @desktop {
             font-size: 11rem;
             display: flex;
@@ -128,6 +141,7 @@ html {
         height: 15%;
         display: flex;
         justify-content: center;
+        margin-top: 2%;
         a:link {
             text-decoration: none;
             color: darkolivegreen;
@@ -220,14 +234,14 @@ html {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 2% 0 2% 17%;
+    margin: 2% 0 2% 16%;
 
     .slideshowImg {
         width: 333px;
         height: 300px;
         background-color: white; 
         @media @tablet {
-            margin: 0 0 0 14%;
+            margin: 0 0 0 16%;
         }
         @media @desktop {
             margin: 0 0 0 19%;
@@ -290,7 +304,7 @@ html {
     padding: 2% 0 2% 5%;
     border-top: 1px dashed white;
     border-bottom: 1px dashed white;
-    padding: 2% 0 0 8%;
+    padding: 2% 0 0 6%;
     @media @desktop {
         padding: 2% 0 0 7%;
     }
