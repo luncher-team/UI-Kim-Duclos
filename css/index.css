@@ -272,6 +272,7 @@ html {
 @media (min-width: 801px) {
   .container {
     width: 1000px;
+    height: 200px;
   }
 }
 .title-block {
@@ -289,16 +290,10 @@ html {
 @media (min-width: 501px) {
   .title-block {
     width: 100%;
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: center;
     margin: 5% 0 30% 0;
-  }
-}
-@media (min-width: 801px) {
-  .title-block {
-    margin: 2% 0 25% 0;
-    height: auto;
   }
 }
 .title-block .navButtons {
@@ -309,6 +304,7 @@ html {
   background-color: darkolivegreen;
   border: none;
   margin: 2% 30% 0 0;
+  padding: 0 0 2% 0;
   color: white;
 }
 .title-block .navButtons button a:link {
@@ -325,23 +321,23 @@ html {
 }
 .title-block .navButtons .login-button {
   background-color: white;
-  padding: 0.5% 4% 5% 0;
-  margin: 2% 2% 0 40%;
+  padding: 0 8px 2px 0;
+  margin: 1% 1% 0 30%;
   color: darkolivegreen;
   font-size: 2rem;
   font-family: 'Patua One', cursive;
   border-radius: 4px;
   display: flex;
   justify-content: flex-end;
-  width: 100px;
+  width: 75px;
+  height: 25px;
 }
 .title-block .navButtons .login-button a:link {
   text-decoration: none;
 }
 @media (min-width: 501px) {
   .title-block .navButtons .login-button {
-    margin: 2% 10% 0 o;
-    padding: 0 0 0 0;
+    margin: 1% 10% 0 o;
   }
 }
 @media (min-width: 801px) {
@@ -380,26 +376,30 @@ html {
     justify-content: center;
   }
 }
-.title-block .sign-up-btn {
+.title-block .donate-btn {
   background-color: white;
   border: none;
-  margin: 4% 0 4% 34%;
-  padding: 0 0 4% 0;
+  margin: 1% 0 1% 38%;
   color: darkolivegreen;
   font-size: 2rem;
   font-family: 'Patua One', cursive;
   border-radius: 4px;
-  width: 150px;
+  width: 100px;
+  height: 15%;
   display: flex;
   justify-content: center;
 }
+.title-block .donate-btn a:link {
+  text-decoration: none;
+  color: darkolivegreen;
+}
 @media (min-width: 501px) {
-  .title-block .sign-up-btn {
-    margin: 4% 0 4% 40%;
+  .title-block .donate-btn {
+    margin: 1% 0 1% 43%;
   }
 }
 @media (min-width: 801px) {
-  .title-block .sign-up-btn {
+  .title-block .donate-btn {
     display: flex;
     align-self: center;
     margin: 2% 4% 2% 0;
@@ -415,7 +415,6 @@ html {
   flex-direction: column;
   justify-content: center;
   border-bottom: 1px dashed white;
-  box-shadow: 5px 5px 10px #000000;
   margin: 5% 0 0 0;
 }
 .learn-content .headline {
@@ -424,7 +423,6 @@ html {
   font-family: 'Patua One', cursive;
   display: flex;
   justify-content: center;
-  margin: 2% 0 0 0;
 }
 .learn-content .headline h2 {
   font-size: 2rem;
@@ -445,23 +443,25 @@ html {
 .learn-content .top-content {
   color: white;
   text-align: center;
+  width: 90%;
+  margin: 0 0 0 2%;
 }
 @media (min-width: 501px) {
   .learn-content .top-content {
     width: 80%;
-    padding: 0 0 0 9%;
+    padding: 0 0 0 6%;
   }
 }
 .learn-content .bottom-content {
   color: white;
   text-align: center;
-  width: 95%;
-  padding: 0 0 0 2%;
+  width: 90%;
+  margin: 0 0 0 2%;
 }
 @media (min-width: 501px) {
   .learn-content .bottom-content {
     width: 80%;
-    padding: 0 0 0 0;
+    padding: 0 0 0 6%;
   }
 }
 .slideshow {
@@ -529,7 +529,6 @@ html {
   padding: 2% 0 2% 5%;
   border-top: 1px dashed white;
   border-bottom: 1px dashed white;
-  box-shadow: 5px 5px 10px #000000;
 }
 .contact-content .email {
   width: 90%;

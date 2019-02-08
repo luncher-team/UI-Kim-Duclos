@@ -21,6 +21,7 @@ html {
     }
     @media @desktop {
         width: 1000px;
+        height: 200px;
     }
 }
 
@@ -38,15 +39,15 @@ html {
     margin: 0 0 20% 0;
     @media @tablet {
         width: 100%;
-        height: 300px;
+        height: 200px;
         display: flex;
         justify-content: center;
         margin: 5% 0 30% 0;
     }
-    @media @desktop {
-        margin: 2% 0 25% 0;
-        height: auto;
-    }
+    // @media @desktop {
+    //     margin: 2% 0 25% 0;
+    //     height: auto;
+    // }
     
     .navButtons {
         display: flex;
@@ -55,6 +56,7 @@ html {
             background-color: darkolivegreen;
             border: none;
             margin: 2% 30% 0 0;
+            padding: 0 0 2% 0;
             color: white;
             a:link {
                 color: darkolivegreen;
@@ -69,21 +71,21 @@ html {
         }
         .login-button {
             background-color: white;
-            padding: .5% 4% 5% 0;
-            margin: 2% 2% 0 40%;
+            padding: 0 8px 2px 0;
+            margin: 1% 1% 0 30%;
             color: darkolivegreen;
             font-size: 2rem;
             font-family: 'Patua One', cursive;
             border-radius: 4px;
             display: flex;
             justify-content: flex-end;
-            width: 100px;
+            width: 75px;
+            height: 25px;
             a:link{
                 text-decoration: none;
             }
             @media @tablet {
-                margin: 2% 10% 0 o;
-                padding: 0 0 0 0;
+                margin: 1% 10% 0 o;
             }
             @media @desktop {
                 margin: 2% 0 0 70%;
@@ -119,20 +121,24 @@ html {
             justify-content: center;
         }
     }
-    .sign-up-btn {
+    .donate-btn {
         background-color: white;
         border: none;
-        margin: 4% 0 4% 34%;
-        padding: 0 0 4% 0;
+        margin: 1% 0 1% 38%;
         color: darkolivegreen;
         font-size: 2rem;
         font-family: 'Patua One', cursive;
         border-radius: 4px;
-        width: 150px;
+        width: 100px;
+        height: 15%;
         display: flex;
         justify-content: center;
+        a:link {
+            text-decoration: none;
+            color: darkolivegreen;
+        }
         @media @tablet {
-            margin: 4% 0 4% 40%;
+            margin: 1% 0 1% 43%;
         }
         @media @desktop {
             display: flex;
@@ -153,7 +159,6 @@ html {
     flex-direction: column;
     justify-content: center;
     border-bottom: 1px dashed white;
-    box-shadow: 5px 5px 10px #000000;
     margin: 5% 0 0 0;
 
     .headline{
@@ -162,7 +167,6 @@ html {
         font-family: 'Patua One', cursive;
         display: flex;
         justify-content: center;
-        margin: 2% 0 0 0;
         h2 {
             font-size: 2rem;
             line-height: .2rem;
@@ -185,19 +189,21 @@ html {
     .top-content {
         color: white;
         text-align: center;
+        width: 90%;
+        margin: 0 0 0 2%;
         @media @tablet {
             width: 80%;
-            padding: 0 0 0 9%;
+            padding: 0 0 0 6%;
         }
     }
     .bottom-content {
         color: white;
         text-align: center;
-        width: 95%;
-        padding: 0 0 0 2%;
+        width: 90%;
+        margin: 0 0 0 2%;
         @media @tablet {
             width: 80%;
-            padding: 0 0 0 0;
+            padding: 0 0 0 6%;
         }
     }
 }
@@ -273,7 +279,6 @@ html {
     padding: 2% 0 2% 5%;
     border-top: 1px dashed white;
     border-bottom: 1px dashed white;
-    box-shadow: 5px 5px 10px #000000;
 
     .email{
         width: 90%;
