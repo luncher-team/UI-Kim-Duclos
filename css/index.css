@@ -458,41 +458,41 @@ html {
   color: white;
   text-align: center;
   width: 90%;
-  margin: 0 0 0 2%;
+  margin: 0 0 0 5%;
 }
 @media (min-width: 501px) {
   .learn-content .top-content {
     width: 80%;
-    padding: 0 0 0 6%;
+    padding: 0 0 0 4%;
   }
 }
 @media (min-width: 801px) {
   .learn-content .top-content {
-    margin: 0 5% 0 0;
+    margin: 0 5% 0 5%;
   }
 }
 .learn-content .bottom-content {
   color: white;
   text-align: center;
   width: 90%;
-  margin: 0 0 0 2%;
+  margin: 0 0 0 5%;
 }
 @media (min-width: 501px) {
   .learn-content .bottom-content {
     width: 80%;
-    padding: 0 0 0 6%;
+    padding: 0 0 0 4%;
   }
 }
 @media (min-width: 801px) {
   .learn-content .bottom-content {
-    margin: 0 5% 0 0;
+    margin: 0 5% 0 5%;
   }
 }
 .slideshow {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 2% 0 2% 15%;
+  margin: 2% 0 2% 17%;
 }
 .slideshow .slideshowImg {
   width: 333px;
@@ -506,7 +506,7 @@ html {
 }
 @media (min-width: 801px) {
   .slideshow .slideshowImg {
-    margin: 0 0 0 17%;
+    margin: 0 0 0 19%;
   }
 }
 .slideshow .slideshowCaption {
@@ -522,11 +522,11 @@ html {
   justify-content: center;
   justify-content: space-evenly;
   padding: 2% 22% 0 0;
-  margin: 0 2% 0 0;
+  margin: 0 2% 0 2%;
 }
 @media (min-width: 801px) {
   .arrows {
-    margin: 0 6% 0 0;
+    margin: 0 6% 0 5%;
   }
 }
 .arrows .fa-chevron-circle-left {
@@ -559,10 +559,11 @@ html {
   padding: 2% 0 2% 5%;
   border-top: 1px dashed white;
   border-bottom: 1px dashed white;
+  padding: 2% 0 0 8%;
 }
 @media (min-width: 801px) {
   .contact-content {
-    padding: 2% 0 0 0;
+    padding: 2% 0 0 7%;
   }
 }
 .contact-content .email {
