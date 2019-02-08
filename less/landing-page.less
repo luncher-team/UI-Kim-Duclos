@@ -2,7 +2,6 @@ html {
     font-size: 62.5%;
 }
 
-
 .container {
     margin: 0 auto;
     width: 500px;
@@ -37,7 +36,7 @@ html {
     border-bottom: 1px dashed white;
     margin: 0 0 20% 0;
     @media @tablet {
-        width: 100%;
+        width: 800px;
         height: 200px;
         display: flex;
         justify-content: center;
@@ -45,6 +44,7 @@ html {
     }
     @media @desktop {
         height: 300px;
+        width: 1000px;
     }
     
     .navButtons {
@@ -155,6 +155,13 @@ html {
     justify-content: center;
     border-bottom: 1px dashed white;
     margin: 5% 0 0 0;
+    width: 500px;
+    @media @tablet {
+        width: 800px
+    }
+    @media @desktop {
+        width: 1000px;
+    }
 
     .headline{
         color: white;

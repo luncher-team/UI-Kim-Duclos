@@ -288,7 +288,7 @@ html {
 }
 @media (min-width: 501px) {
   .title-block {
-    width: 100%;
+    width: 800px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -298,6 +298,7 @@ html {
 @media (min-width: 801px) {
   .title-block {
     height: 300px;
+    width: 1000px;
   }
 }
 .title-block .navButtons {
@@ -418,6 +419,17 @@ html {
   justify-content: center;
   border-bottom: 1px dashed white;
   margin: 5% 0 0 0;
+  width: 500px;
+}
+@media (min-width: 501px) {
+  .learn-content {
+    width: 800px;
+  }
+}
+@media (min-width: 801px) {
+  .learn-content {
+    width: 1000px;
+  }
 }
 .learn-content .headline {
   color: white;
