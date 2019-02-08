@@ -70,22 +70,22 @@ const slideshow = [
     { 
         slide: 0,
         img: 'images/slideshow-images/img0.jpg',
-        caption: 'Feed Kids'
+        caption: 'Poor diet can hurt learning.'
     },
     {
         slide: 1,
         img: 'images/slideshow-images/img1.jpg',
-        caption: 'Nobody wants hangry kids'
+        caption: 'Proper nutrition is a necessity'
     },
     {
         slide: 2,
         img: 'images/slideshow-images/img2.jpg',
-        caption: 'Starving kids is bad'
+        caption: 'Schools need your help.'
     },
     {
         slide: 3,
         img: 'images/slideshow-images/img3.jpg',
-        caption: 'Do the teachers a favor here',
+        caption: 'Help children be their best',
     }
 ];
 

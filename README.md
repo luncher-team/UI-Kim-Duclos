@@ -10,4 +10,4 @@ Informational section provides facts on diet and learning with supplemental slid
 
 Bottom of page provided contact information for Luncher.
 
-Site Deployment on Netify
+Site Deployment on Netify - https://focused-swanson-e5ed5e.netlify.com/

@@ -346,7 +346,7 @@ html {
 }
 @media (min-width: 801px) {
   .title-block .navButtons .login-button {
-    margin: 2% 0 0 70%;
+    margin: 2% 5% 0 70%;
     padding: 0 8px 2px 0;
   }
 }
@@ -454,6 +454,11 @@ html {
     padding: 0 0 0 6%;
   }
 }
+@media (min-width: 801px) {
+  .learn-content .top-content {
+    margin: 0 5% 0 0;
+  }
+}
 .learn-content .bottom-content {
   color: white;
   text-align: center;
@@ -464,6 +469,11 @@ html {
   .learn-content .bottom-content {
     width: 80%;
     padding: 0 0 0 6%;
+  }
+}
+@media (min-width: 801px) {
+  .learn-content .bottom-content {
+    margin: 0 5% 0 0;
   }
 }
 .slideshow {
@@ -479,12 +489,12 @@ html {
 }
 @media (min-width: 501px) {
   .slideshow .slideshowImg {
-    margin: 0 0 0 15%;
+    margin: 0 0 0 14%;
   }
 }
 @media (min-width: 801px) {
   .slideshow .slideshowImg {
-    margin: 0 0 0 20%;
+    margin: 0 0 0 17%;
   }
 }
 .slideshow .slideshowCaption {
@@ -500,6 +510,11 @@ html {
   justify-content: center;
   justify-content: space-evenly;
   padding: 2% 22% 0 0;
+}
+@media (min-width: 801px) {
+  .arrows {
+    margin: 0 6% 0 0;
+  }
 }
 .arrows .fa-chevron-circle-left {
   color: white;
@@ -531,6 +546,11 @@ html {
   padding: 2% 0 2% 5%;
   border-top: 1px dashed white;
   border-bottom: 1px dashed white;
+}
+@media (min-width: 801px) {
+  .contact-content {
+    padding: 2% 0 0 0;
+  }
 }
 .contact-content .email {
   width: 90%;
