@@ -1,0 +1,609 @@
+html {
+  font-size: 62.5%;
+}
+.container-login {
+  margin: 0 auto;
+  width: 100%;
+  height: 1000px;
+  background-image: url(../images/dinner-dishes.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+}
+.header h2 {
+  color: white;
+  font-family: 'Schoolbell', cursive;
+  font-size: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 2% 0 0;
+}
+.nav {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem;
+  font-family: 'Patua One', cursive;
+}
+.nav a {
+  margin: 0 1% 0 1%;
+  text-decoration: none;
+  color: white;
+}
+.nav a :visited {
+  color: white;
+}
+.edit-school-title {
+  font-family: 'Schoolbell', cursive;
+  color: white;
+  font-size: 4rem;
+  line-height: 1.25rem;
+  padding: 0 0 0 0;
+}
+.edit-form {
+  padding: 5% 0 0 45%;
+  color: white;
+  font-family: 'Patua One', cursive;
+  font-size: 2rem;
+}
+.your-school {
+  width: 300px;
+  height: 300px;
+  background-color: darkolivegreen;
+  font-family: 'Patua One', cursive;
+  color: white;
+}
+html {
+  font-size: 62.5%;
+}
+.container-login {
+  margin: 0 auto;
+  width: 100%;
+  height: 1000px;
+  background-image: url(../images/dinner-dishes.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+}
+.header h2 {
+  color: white;
+  font-family: 'Schoolbell', cursive;
+  font-size: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 2% 0 0;
+}
+.nav {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem;
+  font-family: 'Patua One', cursive;
+}
+.nav a {
+  margin: 0 1% 0 1%;
+  text-decoration: none;
+  color: white;
+}
+.nav a :visited {
+  color: white;
+}
+.school-form-title {
+  font-family: 'Schoolbell', cursive;
+  color: white;
+  font-size: 4rem;
+  line-height: 1.25rem;
+  padding: 0 35% 0 0;
+}
+.school-form {
+  padding: 5% 0 0 45%;
+  color: white;
+  font-family: 'Patua One', cursive;
+  font-size: 2rem;
+}
+html {
+  font-size: 62.5%;
+}
+.container-login {
+  margin: 0 auto;
+  width: 100%;
+  height: 1000px;
+  background-image: url(../images/dinner-dishes.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+}
+.header h2 {
+  color: white;
+  font-family: 'Schoolbell', cursive;
+  font-size: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 2% 0 0;
+}
+.nav {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem;
+  font-family: 'Patua One', cursive;
+}
+.nav a {
+  margin: 0 1% 0 1%;
+  text-decoration: none;
+  color: white;
+}
+.nav a :visited {
+  color: white;
+}
+.form-title {
+  font-family: 'Schoolbell', cursive;
+  color: white;
+  font-size: 4rem;
+  line-height: 1.25rem;
+  padding: 0 39% 0 0;
+}
+.form {
+  padding: 10% 0 0 45%;
+  color: white;
+  font-family: 'Patua One', cursive;
+  font-size: 2rem;
+}
+html {
+  font-size: 62.5%;
+}
+.container-donor {
+  margin: 0 auto;
+  width: 100%;
+  height: 1000px;
+  background-image: url(../images/dinner-dishes.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+}
+.header h2 {
+  color: white;
+  font-family: 'Schoolbell', cursive;
+  font-size: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 2% 0 0;
+}
+.nav {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem;
+  font-family: 'Patua One', cursive;
+}
+.nav a {
+  margin: 0 1% 0 1%;
+  text-decoration: none;
+  color: white;
+}
+.nav a :visited {
+  color: white;
+}
+.schools-title {
+  font-family: 'Schoolbell', cursive;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1.25rem;
+  margin: 1.25% 0 0 0;
+}
+.left {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+.left::-webkit-scrollbar {
+  display: none;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+  height: 495px;
+}
+.school-card {
+  font-family: 'Patua One', cursive;
+  text-align: center;
+}
+.school-card .school-name {
+  font-size: 3rem;
+  line-height: 1rem;
+  padding: 5% 2% 5% 2%;
+  width: 75%;
+}
+.school-card .school-address {
+  font-size: 1.5rem;
+  line-height: 1rem;
+}
+.school-card .school-fund {
+  font-size: 2rem;
+  line-height: 1rem;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  padding: 1% 0 0 0;
+  background-color: darkolivegreen;
+  color: white;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+  background-image: url(../images/dinner-dishes-phone.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 501px) {
+  .container {
+    width: 800px;
+    background: url('../images/dinner-dishes-tablet.jpg');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+  }
+}
+@media (min-width: 801px) {
+  .container {
+    width: 1000px;
+    background: url('../images/dinner-dishes-desktop.jpg');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: top;
+  }
+}
+.title-block {
+  width: 500px;
+  height: 175px;
+  color: white;
+  background-color: darkolivegreen;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+  margin: 0 0 20% 0;
+}
+@media (min-width: 501px) {
+  .title-block {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 30% 0;
+  }
+}
+@media (min-width: 801px) {
+  .title-block {
+    height: 300px;
+    width: 1000px;
+  }
+}
+.title-block .navButtons {
+  display: flex;
+  justify-content: center;
+}
+.title-block .navButtons button {
+  background-color: darkolivegreen;
+  border: none;
+  margin: 0 30% 0 0;
+  padding: 2% 0 2% 0;
+  color: white;
+}
+.title-block .navButtons button a:link {
+  color: darkolivegreen;
+}
+@media (min-width: 801px) {
+  .title-block .navButtons button {
+    margin: 2% 5% 0 2%;
+  }
+}
+.title-block .navButtons button .hamburger {
+  color: white;
+  background-color: none;
+}
+.title-block .navButtons .login-button {
+  background-color: white;
+  padding: 0 8px 2px 0;
+  margin: 1% 1% 0 30%;
+  color: darkolivegreen;
+  font-size: 2rem;
+  font-family: 'Patua One', cursive;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-end;
+  width: 75px;
+  height: 25px;
+}
+.title-block .navButtons .login-button a:link {
+  text-decoration: none;
+}
+@media (min-width: 501px) {
+  .title-block .navButtons .login-button {
+    margin: 1% 10% 0 o;
+  }
+}
+@media (min-width: 801px) {
+  .title-block .navButtons .login-button {
+    margin: 2% 5% 0 70%;
+    padding: 0 8px 2px 0;
+  }
+}
+.title-block .main-title {
+  font-size: 5rem;
+  font-family: 'Schoolbell', cursive;
+  line-height: 0.1rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 6% 0;
+}
+@media (min-width: 801px) {
+  .title-block .main-title {
+    font-size: 11rem;
+    display: flex;
+    justify-content: center;
+    padding: 0 2% 0 0;
+  }
+}
+.title-block .tagline {
+  font-size: 1.5rem;
+  font-family: 'Patua One', cursive;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 801px) {
+  .title-block .tagline {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+.title-block .donate-btn {
+  background-color: white;
+  border: none;
+  margin: 1% 0 1% 38%;
+  color: darkolivegreen;
+  font-size: 2rem;
+  font-family: 'Patua One', cursive;
+  border-radius: 4px;
+  width: 100px;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.title-block .donate-btn a:link {
+  text-decoration: none;
+  color: darkolivegreen;
+}
+@media (min-width: 501px) {
+  .title-block .donate-btn {
+    margin: 1% 0 1% 43%;
+  }
+}
+@media (min-width: 801px) {
+  .title-block .donate-btn {
+    display: flex;
+    align-self: center;
+    margin: 2% 4% 2% 0;
+    padding: 0 0 0.5% 0;
+  }
+}
+.learn-content {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px dashed white;
+  margin: 5% 0 0 0;
+  width: 500px;
+}
+@media (min-width: 501px) {
+  .learn-content {
+    width: 800px;
+  }
+}
+@media (min-width: 801px) {
+  .learn-content {
+    width: 1000px;
+  }
+}
+.learn-content .headline {
+  color: white;
+  text-align: center;
+  font-family: 'Patua One', cursive;
+  display: flex;
+  justify-content: center;
+}
+.learn-content .headline h2 {
+  font-size: 2rem;
+  line-height: 0.2rem;
+}
+.learn-content .headline .info-content {
+  flex-direction: column;
+}
+.learn-content .title-font {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Patua One', cursive;
+}
+.learn-content .paragraph-font {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.learn-content .top-content {
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin: 0 0 0 5%;
+}
+@media (min-width: 501px) {
+  .learn-content .top-content {
+    width: 80%;
+    padding: 0 0 0 4%;
+  }
+}
+@media (min-width: 801px) {
+  .learn-content .top-content {
+    margin: 0 5% 0 5%;
+  }
+}
+.learn-content .bottom-content {
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin: 0 0 0 5%;
+}
+@media (min-width: 501px) {
+  .learn-content .bottom-content {
+    width: 80%;
+    padding: 0 0 0 4%;
+  }
+}
+@media (min-width: 801px) {
+  .learn-content .bottom-content {
+    margin: 0 5% 0 5%;
+  }
+}
+.slideshow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2% 0 2% 16%;
+}
+.slideshow .slideshowImg {
+  width: 333px;
+  height: 300px;
+  background-color: white;
+}
+@media (min-width: 501px) {
+  .slideshow .slideshowImg {
+    margin: 0 0 0 16%;
+  }
+}
+@media (min-width: 801px) {
+  .slideshow .slideshowImg {
+    margin: 0 0 0 19%;
+  }
+}
+.slideshow .slideshowCaption {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Patua One', cursive;
+}
+.arrows {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 2% 22% 0 0;
+  margin: 0 2% 0 2%;
+}
+@media (min-width: 801px) {
+  .arrows {
+    margin: 0 6% 0 5%;
+  }
+}
+.arrows .fa-chevron-circle-left {
+  color: white;
+}
+.arrows .fa-chevron-circle-right {
+  color: white;
+}
+.arrows #left {
+  background-color: #000000;
+  border: none;
+}
+.arrows #right {
+  background-color: #000000;
+  border: none;
+}
+#control {
+  background-color: black;
+  color: black;
+  border: none;
+}
+#control :link {
+  background-color: black;
+}
+.contact-content {
+  background-color: darkolivegreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2% 0 2% 5%;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+  padding: 2% 0 0 6%;
+}
+@media (min-width: 801px) {
+  .contact-content {
+    padding: 2% 0 0 7%;
+  }
+}
+.contact-content .email {
+  width: 90%;
+}
+.contact-content .email :link {
+  color: black;
+}
+.contact-content .email :visited {
+  color: black;
+}
+.contact-content .phone {
+  width: 90%;
+}
+.contact-content .phone :link {
+  color: black;
+}
+.contact-content .phone :visited {
+  color: black;
+}
+.contact-content .address {
+  width: 90%;
+}
+.contact-content .address :link {
+  color: black;
+}
+.contact-content .address :visited {
+  color: black;
+}

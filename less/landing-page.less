@@ -1,0 +1,339 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    background-image: url(../images/dinner-dishes-phone.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media @tablet {
+        width: 800px;
+        background: url('../images/dinner-dishes-tablet.jpg');
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-attachment: fixed;
+    }
+    @media @desktop {
+        width: 1000px;
+        background: url('../images/dinner-dishes-desktop.jpg');
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-attachment: fixed;
+        background-position: center;
+        background-position: top;
+    }
+}
+
+
+.title-block {
+    width: 500px;
+    height: 175px;
+    color: white;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    margin: 0 0 20% 0;
+    @media @tablet {
+        width: 800px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        margin: 5% 0 30% 0;
+    }
+    @media @desktop {
+        height: 300px;
+        width: 1000px;
+    }
+    
+    .navButtons {
+        display: flex;
+        justify-content: center;
+        button {
+            background-color: darkolivegreen;
+            border: none;
+            margin: 0 30% 0 0;
+            padding: 2% 0 2% 0;
+            color: white;
+            a:link {
+                color: darkolivegreen;
+            }
+            @media @desktop {
+                margin: 2% 5% 0 2%;
+            }
+            .hamburger {
+                color: white;
+                background-color: none;
+            }
+        }
+        .login-button {
+            background-color: white;
+            padding: 0 8px 2px 0;
+            margin: 1% 1% 0 30%;
+            color: darkolivegreen;
+            font-size: 2rem;
+            font-family: 'Patua One', cursive;
+            border-radius: 4px;
+            display: flex;
+            justify-content: flex-end;
+            width: 75px;
+            height: 25px;
+            a:link{
+                text-decoration: none;
+            }
+            @media @tablet {
+                margin: 1% 10% 0 o;
+            }
+            @media @desktop {
+                margin: 2% 5% 0 70%;
+                padding: 0 8px 2px 0;
+                
+            }
+        }
+    }
+    .main-title {
+        font-size: 5rem;
+        font-family: 'Schoolbell', cursive;
+        line-height: .1rem;
+        display: flex;
+        justify-content: center;
+        margin: 0 0 6% 0;
+        @media @desktop {
+            font-size: 11rem;
+            display: flex;
+            justify-content: center;
+            padding: 0 2% 0 0;
+        }
+    }
+    .tagline {
+        font-size: 1.5rem;
+        font-family: 'Patua One', cursive;
+        display: flex;
+        justify-content: center;
+        @media @desktop {
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .donate-btn {
+        background-color: white;
+        border: none;
+        margin: 1% 0 1% 38%;
+        color: darkolivegreen;
+        font-size: 2rem;
+        font-family: 'Patua One', cursive;
+        border-radius: 4px;
+        width: 100px;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+        a:link {
+            text-decoration: none;
+            color: darkolivegreen;
+        }
+        @media @tablet {
+            margin: 1% 0 1% 43%;
+        }
+        @media @desktop {
+            display: flex;
+            align-self: center;
+            margin: 2% 4% 2% 0;
+            padding: 0 0 .5% 0;
+        }
+    }
+}
+
+
+.learn-content {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px dashed white;
+    margin: 5% 0 0 0;
+    width: 500px;
+    @media @tablet {
+        width: 800px
+    }
+    @media @desktop {
+        width: 1000px;
+    }
+
+    .headline{
+        color: white;
+        text-align: center;
+        font-family: 'Patua One', cursive;
+        display: flex;
+        justify-content: center;
+        h2 {
+            font-size: 2rem;
+            line-height: .2rem;
+        }
+
+
+.info-content {
+    flex-direction: column;
+}
+    }
+    .title-font {
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Patua One', cursive;
+    }
+    .paragraph-font {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .top-content {
+        color: white;
+        text-align: center;
+        width: 90%;
+        margin: 0 0 0 5%;
+        @media @tablet {
+            width: 80%;
+            padding: 0 0 0 4%;
+        }
+        @media @desktop {
+            margin: 0 5% 0 5%;
+        }
+    }
+    .bottom-content {
+        color: white;
+        text-align: center;
+        width: 90%;
+        margin: 0 0 0 5%;
+        @media @tablet {
+            width: 80%;
+            padding: 0 0 0 4%;
+        }
+        @media @desktop {
+            margin: 0 5% 0 5%;
+        }
+    }
+}
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2% 0 2% 16%;
+
+    .slideshowImg {
+        width: 333px;
+        height: 300px;
+        background-color: white; 
+        @media @tablet {
+            margin: 0 0 0 16%;
+        }
+        @media @desktop {
+            margin: 0 0 0 19%;
+        }
+    }
+    
+    .slideshowCaption {
+        width: 50%;
+        height: 100px;
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+        font-family: 'Patua One', cursive;
+    }
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 2% 22% 0 0;
+    margin: 0 2% 0 2%;
+    @media @desktop{
+        margin: 0 6% 0 5%;
+    }
+
+    .fa-chevron-circle-left {
+        color: white;
+    }
+    
+    .fa-chevron-circle-right {
+        color: white;
+    }
+
+    #left {
+        background-color: #000000;
+        border: none;
+    }
+
+    #right {
+        background-color: #000000;
+        border: none;
+    }
+}
+
+#control {
+    background-color: black;
+    color: black;
+    border: none;
+    :link {
+        background-color: black;
+    }
+}
+
+.contact-content {
+    background-color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2% 0 2% 5%;
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    padding: 2% 0 0 6%;
+    @media @desktop {
+        padding: 2% 0 0 7%;
+    }
+
+    .email{
+        width: 90%;
+        :link {
+            color: black;
+        }
+        :visited {
+            color: black;
+        }
+    }
+    .phone {
+        width: 90%;
+        :link {
+            color: black;
+        }
+        :visited {
+            color: black;
+        }
+    }
+    .address {
+        width: 90%;
+        :link {
+            color: black;
+        }
+        :visited {
+            color: black;
+        }
+    }
+}
